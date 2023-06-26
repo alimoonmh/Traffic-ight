@@ -1,0 +1,196 @@
+body{
+    background-color: bisque;
+}
+.base{
+background-color: rgb(149, 143, 143);
+border-radius: 1rem;
+height: 550px;
+width: 200px;
+margin:  auto;
+display: flex;
+flex-direction: column;
+row-gap: 25px;
+padding-top: 15px;
+position: relative;
+top: 15px;
+right: 60px;
+
+}
+.squre{
+    border-radius: 1rem;
+background-color: rgb(95, 89, 89);
+margin: 0px auto;
+height: 90px;
+width: 100px;
+padding: 35px;
+position: relative;
+
+}
+.back-div{
+    margin: 0px auto;
+    position: absolute;
+    left: -40px;
+    height: 600px;
+    width: 90px;
+    background-color: black;
+    border-radius: 10px;
+}
+.mile{
+    background-color: black;
+    height:777px;
+    width: 15px;
+    position: absolute;
+    right: 50%;
+    top:50px
+
+
+}
+.circle1{
+    background-color: white;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    position:absolute ;
+    top: 5px;
+    left: 13px;
+}
+.circle12{
+  background-color: rgb(255, 0, 0);
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  position:absolute ;
+  top: 5px;
+  left: 13px;
+  box-shadow: 0 0 30px 10px rgb(255, 0, 0);
+}
+.circle2{
+    background-color: white;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    position:absolute ;
+    top: 5px;
+    left: 13px;
+}
+.circle21{
+  background-color: yellow;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  position:absolute ;
+  top: 5px;
+  left: 13px;
+  box-shadow: 0 0 30px 10px yellow;
+}
+.circle3{
+    background-color: white;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    position:absolute ;
+    top: 5px;
+    left: 13px;
+}
+.circle32{
+  background-color: rgb(25, 183, 25);
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  position:absolute ;
+  top: 5px;
+  left: 13px;
+  box-shadow: 0 0 30px 10px rgb(25, 183, 25);
+}
+
+
+
+.triangle {
+    width: 0;
+    height: 0;
+    border: 150px solid transparent;
+    border-top: 0;
+    border-bottom: 160px solid rgb(149, 143, 143);;
+    position: fixed;
+    rotate: 180deg;
+    left: 604px;
+    top: 90px;
+  }
+  .trianglee {
+    width: 0;
+    height: 0;
+    border: 150px solid transparent;
+    border-top: 0;
+    border-bottom: 160px solid rgb(149, 143, 143);;
+    position: fixed;
+    rotate: 180deg;
+    left: 604px;
+    top: 275px;
+  }
+  .triangleee {
+    width: 0;
+    height: 0;
+    border: 150px solid transparent;
+    border-top: 0;
+    border-bottom: 160px solid rgb(149, 143, 143);;
+    position: fixed;
+    rotate: 180deg;
+    left: 604px;
+    top: 460px;
+  }
+  .buttons{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+
+  }
+  .red{
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border: 1px solid  white;
+    border-radius: 1cap;
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+.yellow{
+    background-color: white;
+      width: 100px;
+    height: 40px;
+    border: 1px solid  white;
+    border-radius: 1cap;
+    cursor: pointer;
+    color: orange;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+.green{
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border: 1px solid  white;
+    border-radius: 1cap;
+    cursor: pointer;
+    color:rgb(25, 183, 25) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.green:hover{
+    background-color: rgb(25, 183, 25);
+    border: 1px solid  rgb(25, 183, 25);
+    color: white;
+
+}
+.red:hover{
+    background-color: rgb(255, 0, 0);
+    border: 1px solid  rgb(255, 0, 0);
+    color: white;
+
+}
+.yellow:hover{
+    background-color: orange;
+    border: 1px solid orange;
+    color: white;
+
+}
